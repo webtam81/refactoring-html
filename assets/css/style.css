@@ -1,4 +1,4 @@
-/*resets for all html*/
+/*resets*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +8,15 @@
 /*general page styles*/
 body {
     background-color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 /*header styles*/
@@ -21,10 +30,6 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.contrast-letters {
-    color: #d9dcd6;
 }
 
 header section {
@@ -44,15 +49,7 @@ header section ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*hero styles*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +59,33 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*container styles*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*main area styles*/
+.services-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.services-block img {
+    max-height: 200px;
+}
+
+.services-block h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*side block styles*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,24 +113,22 @@ p {
     max-width: 150px;
 }
 
-.services-block {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/*stylistic styles*/
+.contrast-letters {
+    color: #d9dcd6;
 }
 
-.services-block img {
-    max-height: 200px;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
 
-.services-block h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
+/*footer styles*/
 footer {
     padding: 30px;
     clear: both;

@@ -17,6 +17,7 @@ The purpose of this project to put into practice learning about HTML, CSS and se
 - Created 'benefit-block' class to consolidate repeated CSS for each 3 benefit blocks.
 - Side section made into aside.
 - H2 in footer changed to P and given a class for styling. A heading in the footer is not appropriate in this situation as it's not heading anything.
+- CSS commented and moved into more logical sections.
 
 ## Usage
 
