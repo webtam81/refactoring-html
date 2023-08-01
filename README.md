@@ -1,21 +1,27 @@
-# refactoring-html
-Refactoring a web page to make it more accesible and seo friendly
+# Refactoring HTML
 
-text/css added to stylesheet tag
+## An exercise in refactoring HTML for accesibility
 
-changed div class header/footer to header footer tags and adjusted accordingly
+A web page has been refactored to make it more accesible and SEO friendly.
 
-changed class "seo" to "contrast-letters" as seo means nothing with regards to the style. removed header selector for this in css so it can be used elsewhere in the page too.
+The purpose of this project to put into practice learning about HTML, CSS and semantics.
 
-Changed divs to sections and articles
+## Improvements
 
-Changed page ttitle to be descriptive
+- Missing 'text/css' added to stylesheet tag.
+- Changed DIVs with class 'header'/'footer' to header and footer tags respectively and adjusted corresponding accordingly.
+- Changed class "seo" to "contrast-letters" as it's more semantic. Removed header selector for this in CSS so the class can be used elsewhere in the page too.
+- Changed DIV and nested DIV tags to SECTION and ARTICLE tags.
+- Changed page title to be descriptive.
+- Created 'services-block' class to consolidate repeated CSS for each 3 service blocks.
+- Created 'benefit-block' class to consolidate repeated CSS for each 3 benefit blocks.
+- Side section made into aside.
+- H2 in footer changed to P and given a class for styling. A heading in the footer is not appropriate in this situation as it's not heading anything.
 
-created services block class to merge repeated css for each 3 blocks
+## Usage
 
-created benefit block class to merge repeated css for each 3 blocks 
+View on GitHub Pages here: [https://webtam81.github.io/refactoring-html/](https://webtam81.github.io/refactoring-html/)
+    ```
+## License
 
-side section made into aside
-
-h2 in footer changed to p. Wouldn't have a heading in the footer, it's not heading anything
-
+MIT License. See license file for further details.
